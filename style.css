@@ -42,17 +42,17 @@ body {
 .flyer-content h2 {
     color: #333;
     font-family: "Poppins";
-    font-size: 2.5rem; /* Adjusted for scaling */
+    font-size: 2.5rem; 
     margin: 5px 0;
 }
 
 .flyer-content p {
     color: #212121;
     font-family: "Poppins";
-    line-height: 1.8; /* Adjusted line height */
+    line-height: 1.8; 
     margin-bottom: 15px;
     font-weight: bold;
-    padding: 0 15px; /* Added padding for readability */
+    padding: 0 15px; 
 }
 
 .flyer-content button {
@@ -126,7 +126,7 @@ body {
         transform: translateX(-50%);
         width: 120px;
         height: 60px;
-        margin-bottom: 20px; /* Adds space between logo and content */
+        margin-bottom: 20px; 
         background: url('images/logo.png') no-repeat center center;
         background-size: contain;
     }
