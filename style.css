@@ -115,9 +115,9 @@ body {
         display:none;
     }
 
-    .flyer-image {
+    /* .flyer-image {
         display: none;
-    }
+    } */
 
 
     .dotted-image-top {
@@ -150,11 +150,14 @@ body {
     }
 
     .image-above-circle {
-        width: 150px;
-        height: 150px;
-        background: url('images/image1.png') no-repeat center center;
+        
+        width: 120px; /* Adjust as needed */
+        height: 120px; /* Adjust as needed */
+        background: url('images/image1.png') no-repeat;
         background-size: contain;
-        margin-bottom: -30px; /* Adjust overlap */
+        z-index: 2;
+        bottom:0;
+        left:0;
     }
 
     .dotted-image-bottom {
@@ -167,14 +170,14 @@ body {
     }
 
     .dotted-image-right {
-        position: absolute;
-        top: 50%; 
-        right: 15px;
+        
+        bottom:0;
+        right:0;
         width: 100px;
         height: 100px;
         background: url('images/Shape3.png') no-repeat ;
         background-size: contain;
-        transform: translateY(-50%);
+       
     }
 
     .flyer-content button {
